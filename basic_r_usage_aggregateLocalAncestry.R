@@ -7,13 +7,6 @@
 #	Created by Ben Haller, 10/30/2017
 #	A product of the Messer Lab, http://messerlab.org/slim/
 
-#	Ben Haller and Philipp Messer, the authors of this code, hereby place
-#	the code in this file into the public domain without restriction.
-#	If you use this code, please credit SLiM-Extras and provide a link to
-#	the SLiM-Extras repository at https://github.com/MesserLab/SLiM-Extras.
-#	Thank you.
-
-
 # This script is designed to work with an old version of the recipe
 # for section 14.7 in the SLiM manual.  Since that recipe has been
 # changed, here is the original code for it; cut/paste this code

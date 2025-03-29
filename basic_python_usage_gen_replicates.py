@@ -6,8 +6,6 @@ Generate replicated runs of SLiM and tabulate a binary metric from their output
 
 Created by Nathan Oakes on 10/24/2017.
 A product of the Messer Lab, http://messerlab.org/slim/
-
-Nathan Oakes and Philipp Messer, the authors of this code, hereby place the code in this file into the public domain without restriction.  If you use this code, please credit SLiM-Extras and provide a link to the SLiM-Extras repository at https://github.com/MesserLab/SLiM-Extras.  Thank you.
 '''
 
 '''
