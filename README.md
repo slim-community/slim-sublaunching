@@ -12,4 +12,6 @@ At present, this repo contains:
 
 **sublaunching_tutorial** : a tutorial on sublaunching via BASH, Python, or R that demonstrates a full workflow for running an included demo SLiM file through a grid of parameters.
 
-This is not a single-author repository!  These contributions are all by different people (see the credits on each item), and we'd welcome new pull requests that show other approaches to the problem of sublaunching.  It's a problem that pretty much every SLiM user has to figure out at some point, it's a frequently asked question at SLiM workshops and on slim-discuss, and there are many different ways to handle it!
+**slimwrap**: a lightweight, single-file Python library to launch SLiM simulations that plays well with NumPy and Jupyter notebooks and a [Jupyter notebook demonstrating its usage](slimwrap/python/example.ipynb).
+
+This is not a single-author repository! These contributions are all by different people (see the credits on each item), and we'd welcome new pull requests that show other approaches to the problem of sublaunching. It's a problem that pretty much every SLiM user has to figure out at some point, it's a frequently asked question at SLiM workshops and on slim-discuss, and there are many different ways to handle it!
