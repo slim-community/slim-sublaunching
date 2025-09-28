@@ -1,0 +1,20 @@
+initialize() {
+	initializeTreeSeq();
+	initializeMutationRate(0);
+	initializeMutationType("m1", 0.5, "f", 0.0);
+	initializeGenomicElementType("g1", m1, 1.0);
+	initializeGenomicElement(g1, 0, L);
+	initializeRecombinationRate(RHO);
+	// This code assumes a POPSIZES vector exists
+	defineConstant("RUNTIME", length(POPSIZES));
+}
+1 early() {
+	sim.addSubpop("p0", POPSIZES[0]);
+}
+2: early() {
+	p0.setSubpopulationSize(POPSIZES[sim.cycle]);
+}
+(RUNTIME-1) late() {
+	// SLIM_WRAP_PARAMS is defined when using slimwrap
+	sim.treeSeqOutput(OUTFILE, metadata=SLIM_WRAP_PARAMS);
+}
